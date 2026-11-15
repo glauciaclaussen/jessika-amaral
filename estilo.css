@@ -254,7 +254,7 @@ h1 em, h2 em { font-style: italic; color: var(--acento); }
 .lista--nao li::before { background: transparent; border: 1px solid var(--texto-suave); }
 @media (max-width: 640px) { .listas { grid-template-columns: 1fr; } }
 
-.arte--retrato { mix-blend-mode: normal; object-position: 30% 30%; width: 52vw; }
+.arte--retrato { mix-blend-mode: normal; object-position: 50% 18%; width: 52vw; }
 .selos { list-style: none; padding: 0; margin: 20px 0 0; display: flex; flex-wrap: wrap; gap: 10px; }
 .selos li { border: 1px solid rgb(181 122 98 / .35); color: var(--texto); border-radius: 999px; padding: 7px 14px; font-size: 14px; }
 
@@ -295,8 +295,17 @@ h1 em, h2 em { font-style: italic; color: var(--acento); }
 
 @media (max-width: 860px) {
   .marca-logo { height: 42px; }
-  .arte--retrato { width: 100%; height: 58%; opacity: .95; object-position: 30% 22%; }
+  .arte--retrato { width: 100%; height: 58%; opacity: .95; object-position: 50% 14%; }
   .momento--centro { left: var(--gutter); right: var(--gutter); width: auto; transform: translateY(24px); bottom: 10vh; }
   .momento--centro.ativo { transform: none; }
   #sobre { padding-top: 52vh; }
 }
+
+/* Instagram */
+.menu-ig { display: inline-flex; opacity: .8; }
+.menu-ig svg, .rodape-ig svg { width: 20px; height: 20px; }
+@media (max-width: 760px) { .menu a.menu-ig { display: inline-flex; } }
+.botao--ig { display: inline-flex; align-items: center; gap: 8px; }
+.botao--ig svg { width: 18px; height: 18px; flex: none; }
+.rodape-ig { display: inline-flex; align-items: center; gap: 8px; color: inherit; text-decoration: none; }
+.rodape-ig:hover { color: var(--acento); }
