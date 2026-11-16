@@ -7,7 +7,7 @@ window.SITE = {
   },
 
   contato: {
-    email: "jea.amaral15@gmail.com",
+    email: "jessikabasen@hotmail.com",
     // Opcional: chave do Web3Forms (https://web3forms.com). Se vazio, usa FormSubmit.
     web3formsChave: "",
     assunto: "Novo contato pelo site Jéssika Amaral",
